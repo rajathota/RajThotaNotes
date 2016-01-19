@@ -12,9 +12,9 @@ Java Interview Quick Reference Links
 
 Java concurrency (multi-threading)
 [
-  http://www.vogella.com/tutorials/JavaConcurrency/article.html
-  http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers
-  http://www.journaldev.com/1024/java-thread-join-example-with-explanation
-  http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
+ - http://www.vogella.com/tutorials/JavaConcurrency/article.html
+ - http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers
+ - http://www.journaldev.com/1024/java-thread-join-example-with-explanation
+ - http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
 ]
 
