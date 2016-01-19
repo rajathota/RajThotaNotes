@@ -11,5 +11,11 @@ http://joshlong.com/jl/blogPost/getting_started_with_cloud_foundry_for_java_and_
 Java Interview Quick Reference Links
 
 Java concurrency (multi-threading)
-http://www.vogella.com/tutorials/JavaConcurrency/article.html
+[
+  http://www.vogella.com/tutorials/JavaConcurrency/article.html
+  http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers
+  http://www.journaldev.com/1024/java-thread-join-example-with-explanation
+  http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
+
+]
 
