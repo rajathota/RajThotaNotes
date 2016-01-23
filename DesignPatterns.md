@@ -22,6 +22,9 @@
 - Good Luck and Bye from the team here at in28Minutes
 - Do not forget to leave us a review.
 
+http://www.journaldev.com/1572/proxy-design-pattern-in-java-example-tutorial
+
+
 ## Example Java Files
 ### src/com/in28minutes/patterns/AdapterPattern.java
 ```
