@@ -204,6 +204,7 @@ public class FactoryPattern {
 }
 ```
 ### src/com/in28minutes/patterns/MySingletonUsingEnum.java
+### http://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-with-examples
 ```
 package com.in28minutes.patterns;
 
