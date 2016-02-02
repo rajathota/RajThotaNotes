@@ -18,3 +18,8 @@ Java concurrency (multi-threading)
  - http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
 ]
 
+
+https://drive.google.com/file/d/0B8KENIDghuHAQmxtZVhwa1U5OTg/view?usp=sharing
+
+
+https://drive.google.com/file/d/0B8KENIDghuHAVVl1SE96bGsyckk/view?usp=sharing
