@@ -18,6 +18,8 @@ Java concurrency (multi-threading)
  - http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
 ]
 
+http://www.cubrid.org/blog/dev-platform/dancing-with-oauth-understanding-how-authorization-works/
+
 
 https://drive.google.com/file/d/0B8KENIDghuHAQmxtZVhwa1U5OTg/view?usp=sharing
 
