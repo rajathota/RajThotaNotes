@@ -1,2 +1,17 @@
 Creating a MYSQL JDBCProvider in IIB
 http://www.daveturner.info/mysql-jdbcprovider-in-iib/
+
+
+1. [iib10] Lab 1: Creating an Integration service
+
+https://developer.ibm.com/integration/docs/ibm-integration-bus/self-study-labs/iib10-lab-1-creating-an-integration-service/
+
+
+#comand to create a security Identity
+mqsisetdbparms TESTNODE_rthota -n jdbc::HRDB_SecurityId -u mule -p mule
+
+#command to create a MYQSL JDBC Provider
+mqsicreateconfigurableservice TESTNODE_rthota -c JDBCProviders -o HRDB -n connectionUrlFormat,connectionUrlFormatAttr1,connectionUrlFormatAttr2,connectionUrlFormatAttr3,connectionUrlFormatAttr4,connectionUrlFormatAttr5,databaseName,databaseSchemaNames,databaseType,databaseVersion,description,environmentParms,jarsURL,jdbcProviderXASupport,maxConnectionPoolSize,portNumber,securityIdentity,serverName,type4DatasourceClassName,type4DriverClassName -v "jdbc:mysql://[serverName]:[portNumber]/[databaseName]?user=[user]&password=[password]&database=[databaseName]","","","","","","sandbox","useProvidedSchemaNames","MYSQL","default_Database_Version","default_Description","default_none","C:\IBM\SQLLIB\java\mysql","false","0","3306","HRDB_SecurityId","localhost","com.mysql.jdbc.jdbc2.optional.MysqlDataSource","com.mysql.jdbc.Driver"
+
+mqsistop TESTNODE_rthota
+mqsistart TESTNODE_rthota
