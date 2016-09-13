@@ -1,0 +1,79 @@
+BROKER=ESB02
+EXECUTION_GROUP=EG00
+
+FULL_REPOSITORY_QUEUE_MANAGER=FR01
+BROKER_QUEUE_MANAGER=BR01
+GATEWAY_QUEUE_MANAGER=GW01
+
+FULL_REPOSITORY_QUEUE_MANAGER_OTHER_SIDE=FR02
+BROKER_QUEUE_MANAGER_OTHER_SIDE=BR02
+GATEWAY_QUEUE_MANAGER_OTHER_SIDE=GW02
+
+FULL_REPOSITORY_QUEUE_MANAGER_PORT=1401
+BROKER_QUEUE_MANAGER_PORT=1403
+GATEWAY_QUEUE_MANAGER_PORT=1405
+
+FULL_REPOSITORY_QUEUE_MANAGER_OTHER_SIDE_PORT=1402
+BROKER_QUEUE_MANAGER_OTHER_SIDE_PORT=1404
+GATEWAY_QUEUE_MANAGER_OTHER_SIDE_PORT=1406
+
+CLUSTER_NAME=CL01
+
+IN_QUEUE=TEST.IN
+OUT_QUEUE=TEST.OUT
+
+FULL_REPOSITORY_QUEUE_MANAGER_DNS=
+BROKER_QUEUE_MANAGER_DNS=
+GATEWAY_QUEUE_MANAGER_DNS=
+
+FULL_REPOSITORY_QUEUE_MANAGER_OTHER_SIDE_DNS=
+BROKER_QUEUE_MANAGER_OTHER_SIDE_DNS=
+GATEWAY_QUEUE_MANAGER_OTHER_SIDE_DNS=
+
+
+@echo off
+
+echo REPORTING STARTED
+echo -----------------------
+
+echo LIST OF QUEUE MANAGERS
+dspmq
+echo -----------------------
+
+echo LIST BROKER ARTIFACTS
+mqsilist -r
+echo -----------------------
+
+echo LIST BROKER REGISTRY
+mqsireportproperties %BROKER% -o BrokerRegistry -r
+echo -----------------------
+
+echo LIST HTTPLISTENER REPORTABLE ENTITY NAMES
+mqsireportproperties %BROKER% -b httplistener -o AllReportableEntityNames -a 
+echo -----------------------
+
+echo LIST HTTPLISTENER PROPERTIES
+mqsireportproperties %BROKER% -b httplistener -o HTTPListener -a 
+echo -----------------------
+
+echo LIST HTTPLISTENER HTTPCONNECTOR PROPERTIES
+mqsireportproperties %BROKER% -b httplistener -o HTTPConnector  -a 
+echo -----------------------
+
+echo LIST HTTPLISTENER HTTPSCONNECTOR PROPERTIES
+mqsireportproperties %BROKER% -b httplistener -o HTTPSConnector  -a 
+echo -----------------------
+
+echo LIST EXECUTION GROUP HTTPCONNECTOR PROPERTIES
+mqsireportproperties %BROKER% -e %EXECUTION_GROUP% -o HTTPConnector  -r 
+echo -----------------------
+
+echo LIST EXECUTION GROUP HTTPSCONNECTOR PROPERTIES
+mqsireportproperties %BROKER% -e %EXECUTION_GROUP% -o HTTPSConnector  -r 
+echo -----------------------
+
+echo LIST EXECUTION GROUP JVM PROPERTIES
+mqsireportproperties %BROKER% -o ComIbmJVMManager -a -e %EXECUTION_GROUP%
+echo -----------------------
+
+echo REPORTING COMPLETE
