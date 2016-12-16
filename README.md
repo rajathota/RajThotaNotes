@@ -17,6 +17,9 @@ http://www.mastertheboss.com/jboss-server/jboss-monitoring/how-to-solve-javalang
 http://middlewaremagic.com/weblogic/?p=422
 
 https://www.mkyong.com/java/find-out-your-java-heap-memory-size/
+
+http://www.oracle.com/technetwork/java/ergo5-140223.html
+
 __________________________________________________________________________________________
 
 importing certifcate in to JRE cacerts
