@@ -1,7 +1,23 @@
 # RajThotaNotes
 
+______________________________________________________________________
+JVM performance tuning
 http://middlewaremagic.com/weblogic/?tag=outofmemory
 
+http://www.mastertheboss.com/jboss-server/jboss-monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread
+
+http://javaeesupportpatterns.blogspot.com/2012/09/outofmemoryerror-unable-to-create-new.html
+
+http://javaeesupportpatterns.blogspot.com/2011/11/how-to-analyze-thread-dump-part-1.html
+
+https://dzone.com/articles/outofmemoryerror-unable-create
+
+http://www.mastertheboss.com/jboss-server/jboss-monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread
+
+http://middlewaremagic.com/weblogic/?p=422
+
+https://www.mkyong.com/java/find-out-your-java-heap-memory-size/
+__________________________________________________________________________________________
 
 importing certifcate in to JRE cacerts
 
