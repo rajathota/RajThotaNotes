@@ -1,5 +1,7 @@
 # RajThotaNotes
 
+https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-jconsole/
+
 ______________________________________________________________________
 JVM performance tuning
 http://middlewaremagic.com/weblogic/?tag=outofmemory
