@@ -1,10 +1,15 @@
 # RajThotaNotes
 
+___________________________________________________
 https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-jconsole/
 
 ______________________________________________________________________
 JVM performance tuning
 http://middlewaremagic.com/weblogic/?tag=outofmemory
+http://gceasy.io/index.jsp
+http://fastthread.io/
+
+https://blog.fastthread.io/2016/06/06/how-to-take-thread-dumps-7-options/
 
 http://www.mastertheboss.com/jboss-server/jboss-monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread
 
