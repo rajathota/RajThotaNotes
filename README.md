@@ -1,5 +1,6 @@
 # RajThotaNotes
 
+ftp://public.dhe.ibm.com/software/integration/wmq/docs/V8.0/PDFs/
 ___________________________________________________
 https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-jconsole/
 
