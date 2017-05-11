@@ -4,6 +4,8 @@ ftp://public.dhe.ibm.com/software/integration/wmq/docs/V8.0/PDFs/
 ___________________________________________________
 https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-jconsole/
 
+http://narayanasetti.blogspot.in/2014/03/weblogic-administration-interview.html
+
 ______________________________________________________________________
 JVM performance tuning
 http://middlewaremagic.com/weblogic/?tag=outofmemory
