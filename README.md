@@ -6,6 +6,7 @@ https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-j
 
 http://narayanasetti.blogspot.in/2014/03/weblogic-administration-interview.html
 
+http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/
 ______________________________________________________________________
 JVM performance tuning
 http://middlewaremagic.com/weblogic/?tag=outofmemory
