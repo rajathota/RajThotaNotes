@@ -1,5 +1,7 @@
 # RajThotaNotes
 
+http://oraclemiddlewareblog.com/2015/10/13/weblogic12c-architecture-in-the-amazon-cloud/
+
 ftp://public.dhe.ibm.com/software/integration/wmq/docs/V8.0/PDFs/
 ___________________________________________________
 https://learnweblogic.wordpress.com/2012/11/22/monitoring-weblogic-server-with-jconsole/
