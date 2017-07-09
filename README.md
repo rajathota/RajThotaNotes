@@ -1,5 +1,8 @@
 # RajThotaNotes
 
+Algorithms
+https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+
 http://oraclemiddlewareblog.com/2015/10/13/weblogic12c-architecture-in-the-amazon-cloud/
 
 ftp://public.dhe.ibm.com/software/integration/wmq/docs/V8.0/PDFs/
