@@ -1,5 +1,17 @@
 # RajThotaNotes
 
+Spring Integration
+
+http://byteposts.blogspot.in/2015/01/spring-integration-bulk-processing.html
+
+https://examples.javacodegeeks.com/enterprise-java/spring/integration/spring-integration-control-bus-example/
+
+
+http://jussi.hallila.com/2016/09/05/programmatically-managing-spring-integration-poller.html
+
+___________________________________________________
+
+
 Algorithms
 https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
 
