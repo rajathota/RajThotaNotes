@@ -9,6 +9,7 @@ https://examples.javacodegeeks.com/enterprise-java/spring/integration/spring-int
 
 http://jussi.hallila.com/2016/09/05/programmatically-managing-spring-integration-poller.html
 
+https://stackoverflow.com/questions/33739148/spring-integration-channel-chaining-weirdness
 ___________________________________________________
 
 
