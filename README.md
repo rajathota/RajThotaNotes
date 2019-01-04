@@ -1,5 +1,12 @@
 # RajThotaNotes
 
+
+Zookeeper Notes
+
+http://hanishblogger.blogspot.com/2013/11/zookeeper-setup-in-distributed-mode.html
+
+____________________________________________________________________
+
 Spring Integration
 
 http://byteposts.blogspot.in/2015/01/spring-integration-bulk-processing.html
