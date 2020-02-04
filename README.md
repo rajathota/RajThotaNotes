@@ -86,3 +86,10 @@ https://drive.google.com/file/d/0B8KENIDghuHAQmxtZVhwa1U5OTg/view?usp=sharing
 
 
 https://drive.google.com/file/d/0B8KENIDghuHAVVl1SE96bGsyckk/view?usp=sharing
+
+________________________________________________________________________________________
+
+ELK 
+https://www.freecodecamp.org/news/how-to-use-elasticsearch-logstash-and-kibana-to-visualise-logs-in-python-in-realtime-acaab281c9de/
+https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns
+
