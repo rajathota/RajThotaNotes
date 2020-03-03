@@ -12,6 +12,8 @@ ____________________________________________________________________
 
 Spring Integration
 
+https://dzone.com/articles/spring-integration-throttler
+
 http://byteposts.blogspot.in/2015/01/spring-integration-bulk-processing.html
 
 https://examples.javacodegeeks.com/enterprise-java/spring/integration/spring-integration-control-bus-example/
