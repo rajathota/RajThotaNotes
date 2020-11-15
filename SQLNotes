@@ -1,0 +1,5 @@
+sql notes
+
+"SELECT blg.*, concat(au.first_name, ' ',au.last_name) as name,au.email as email, cc.category_name, cc.category_image  
+  FROM `blog_blogs` as blg left join auth_user as au on au.id = blg.author_id 
+  left join category_category as cc on cc.id = blg.category_id order by blg.create_date"
