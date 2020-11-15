@@ -4,4 +4,8 @@ sudo sh -c 'echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main"
 sudo apt update
 sudo apt install elasticsearch
 sudo systemctl enable elasticsearch.service
-sudo systemctl start elasticsearch.servic
+sudo systemctl start elasticsearch.service
+
+#follow the instructions for the logstash and filebeat installation in this url:
+https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu
+
