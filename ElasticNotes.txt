@@ -9,3 +9,14 @@ sudo systemctl start elasticsearch.service
 #follow the instructions for the logstash and filebeat installation in this url:
 https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu
 
+
+grok patterns
+
+____________________________________________________
+127.0.0.1 GET /mytestpage.php 11314 0.01
+
+%{IP:client} %{WORD:method} %{URIPATHPARAM:request} %{NUMBER:bytes} %{NUMBER:duration}
+_______________________________________________________
+2019-02-19 13:53:53.080 WARN 27408 --- [Executor-870113] o.s.web.client.AsyncRestTemplate : Async POST request for "https://ohionewstore.com" resulted in 401
+%{TIMESTAMP_ISO8601:timestamp}%{SPACE} %{LOGLEVEL:level} %{NOTSPACE:sessionid} --- %{NOTSPACE:thread} %{NOTSPACE:source} %{SPACE}: %{GREEDYDATA:message}
+_______________________________________________________
