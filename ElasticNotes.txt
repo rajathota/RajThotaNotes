@@ -20,3 +20,5 @@ _______________________________________________________
 2019-02-19 13:53:53.080 WARN 27408 --- [Executor-870113] o.s.web.client.AsyncRestTemplate : Async POST request for "https://ohionewstore.com" resulted in 401
 %{TIMESTAMP_ISO8601:timestamp}%{SPACE} %{LOGLEVEL:level} %{NOTSPACE:sessionid} --- %{NOTSPACE:thread} %{NOTSPACE:source} %{SPACE}: %{GREEDYDATA:message}
 _______________________________________________________
+
+https://www.elastic.co/blog/timelion-tutorial-from-zero-to-hero
