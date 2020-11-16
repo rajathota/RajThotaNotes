@@ -21,4 +21,7 @@ _______________________________________________________
 %{TIMESTAMP_ISO8601:timestamp}%{SPACE} %{LOGLEVEL:level} %{NOTSPACE:sessionid} --- %{NOTSPACE:thread} %{NOTSPACE:source} %{SPACE}: %{GREEDYDATA:message}
 _______________________________________________________
 
+--- Timelion visualization
+
+
 https://www.elastic.co/blog/timelion-tutorial-from-zero-to-hero
