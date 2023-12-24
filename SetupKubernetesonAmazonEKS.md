@@ -2,6 +2,21 @@
 https://youtu.be/_TFk5jQr2lk
 https://www.eksworkshop.com/?p=pm&pd=eks&z=1
 
+login to the cloud shell
+https://console.aws.amazon.com/cloudshell/home
+
+wget -q https://raw.githubusercontent.com/aws-samples/eks-workshop-v2/stable/lab/cfn/eks-workshop-ide-cfn.yaml -O eks-workshop-ide-cfn.yaml
+
+aws cloudformation deploy --stack-name eks-workshop-ide \
+    --template-file ./eks-workshop-ide-cfn.yaml \
+    --parameter-overrides RepositoryRef=stable \
+    --capabilities CAPABILITY_NAMED_IAM
+
+aws cloudformation describe-stacks --stack-name eks-workshop-ide \
+    --query 'Stacks[0].Outputs[?OutputKey==`Cloud9Url`].OutputValue' --output text
+
+    https://us-west-2.console.aws.amazon.com/cloud9/ide/7b05513358534d11afeb7119845c5461?region=us-west-2
+
 You can follow same procedure in the official  AWS document [Getting started with Amazon EKS – eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)   
 
 #### Pre-requisites: 
@@ -51,7 +66,8 @@ sudo mv /tmp/eksctl /usr/local/bin
    IAM user should have access to   
    IAM   
    EC2   
-   CloudFormation  
+   CloudFormation
+   AmazonSSMManagedInstanceCore
    Note: Check eksctl documentaiton for [Minimum IAM policies](https://eksctl.io/usage/minimum-iam-policies/)
 
 Follow the below link [Thota]
@@ -68,14 +84,13 @@ Follow the below link [Thota]
    --zones <AZ-1>,<AZ-2>
    
    example:
-   eksctl create cluster --name valaxy-cluster \
-      --region ap-south-1 \
-   --node-type t2.small \
+   eksctl create cluster --name devops-eks-cluster  --region us-west-2 --node-type t2.small
     ```
+eksctl get cluster --region us-west-2
 
 7. To delete the EKS clsuter 
    ```sh 
-   eksctl delete cluster valaxy --region ap-south-1
+   eksctl delete cluster devops-eks-cluster  --region us-west-2
    ```
    
 8. Validate your cluster using by creating by checking nodes and by creating a pod 
